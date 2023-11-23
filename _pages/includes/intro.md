@@ -6,4 +6,4 @@ I am now working on image matting ,image generation research .In the future, I w
 
 If you are seeking any form of academic cooperation, please feel free to email me at jxie@picup.ai.
 
-Our team is currently incubating two products, the image editing website : Cutout.pro, and the controllable AIGC generation product :promeai.com.
+Our team is currently incubating two products, the image editing website [Cutout](www.cutout.pro), and the controllable AIGC generation product [Promeai](www.promeai.com).
