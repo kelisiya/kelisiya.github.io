@@ -3,7 +3,7 @@
 ## Image Matting
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/PSG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Ultra Real-Time Portrait Matting via Parallel Semantic Guidance](https://ieeexplore.ieee.org/document/10097034/) \\
