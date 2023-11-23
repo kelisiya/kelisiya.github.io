@@ -7,12 +7,12 @@
 
 # Site Settings
 title                    : "Jiake Xie (谢家柯)"
-description              : "Research scientist in Bytedance AI Lab, Speech & Audio Team. Focusing on speech, NLP and music."
-repository               : "rayeren/rayeren.github.io"
+description              : "Computer vision researcher in LibAI Lab. Focusing on image matting, gan/diffusion generator."
+repository               : "kelisiya/kelisiya.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      : G-SWFCX99KQZ
+google_analytics_id      :  #G-SWFCX99KQZ
 
 # SEO Related
 google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
