@@ -9,8 +9,6 @@
 [Ultra Real-Time Portrait Matting via Parallel Semantic Guidance](https://ieeexplore.ieee.org/document/10097034/) \\
 Xin Huang; **Jiake Xie**; Bo Xu; Han Huang; Ziwen Li; Cheng Lu; Yandong Guo; Yong Tang
 
-
-</div><img src='images/PSG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558) \\
