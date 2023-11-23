@@ -5,3 +5,5 @@ Before that, I received my B. CS degree from Zhengzhou University of Light Indus
 I am now working on image matting ,image generation research .In the future, I will update my ideas, progress of phased experiments, and work projects here.
 
 If you are seeking any form of academic cooperation, please feel free to email me at jxie@picup.ai.
+
+Our team is currently incubating two products, the image editing website : Cutout.pro, and the controllable AIGC generation product :promeai.com.
