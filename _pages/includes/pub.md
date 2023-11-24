@@ -18,7 +18,7 @@ Bo Xu,**Jiake Xie**,Han Huang,Ziwen Li,Cheng Lu,Yong Tang,Yandong Guo
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV2021</div><img src='TiMi-Net.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [TIMI-NET: Tripartite Information Mining and Integration for Image Matting](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Tripartite_Information_Mining_and_Integration_for_Image_Matting_ICCV_2021_paper.pd)  \\
-Bo Xu,**Jiake Xie**,Han Huang,Ziwen Li,Cheng Lu,Yong Tang,Yandong Guo
+Yuhao Liu*, Jiake Xie*, Xiao Shi, , Yujie Huang, Yong Tang and Xin Yang
 </div>
 </div>
 
