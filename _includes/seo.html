@@ -8,11 +8,23 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% if page.title and page.url != "/" %}
+  <title>{{ page.title | strip_html | strip_newlines | escape_once }} | {{ site.title }}</title>
+{% else %}
+  <title>{{ site.title }} - Homepage</title>
+{% endif %}
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+{% endif %}
+
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -31,14 +43,27 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title | strip_html | strip_newlines | escape_once }}">
+{% if page.layout == "post" %}
+  <meta property="og:type" content="article">
+  {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags %}
+      <meta property="article:tag" content="{{ tag }}">
+    {% endfor %}
+  {% endif %}
+{% else %}
+  <meta property="og:type" content="website">
+{% endif %}
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
